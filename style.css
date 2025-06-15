@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.logo {
+    /* background-color: aqua; */
+    padding: 1rem 1rem 1rem 2rem;
+    height: 3rem;
+    width: 9rem;
+    margin-left: 3.6rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.brand{
+    margin-left: 2.3rem;
+    height: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand:hover{
+    border-bottom: 6px solid black;
+}
+.discover , .impact{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 3.8rem;
+    height: 91%;
+}
+.dropdowndis {
+    display: none;
+    position: absolute;
+    top: 107%; /* show below the discover div */
+    left: -20px;
+    background-color: white;
+    width: 15rem;
+    z-index: 10;
+    padding: 10px;
+}
+.dropdowndis p {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdowndis p:hover {
+    background-color: #f2f2f2;
+}
+
+  /* Show dropdown on hover */
+.discover:hover .dropdowndis {
+    display: block;
+}
+.impact:hover .dropdowndis {
+    display: block;
+}
+.discover:hover, .impact:hover{
+    border-bottom: 6px  solid black;
+}
+.shop, .promos{
+    margin-left: 4rem;
+    height: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop:hover, .promos:hover{
+    border-bottom: 6px solid black;
+}
+.profile{
+    margin-left: 34rem;
+    height: 91%;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile i{
+    font-size: 30px;
+    width: 1rem;
+}
+.profile:hover .dropdownpro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profile:hover{
+    border-bottom: 6px  solid black;
+}
+.dropdownpro {
+    display: none;
+    position: absolute;
+    top: 10%; /* show below the discover div */
+    right: 35px;
+    background-color: white;
+    width: 19rem;
+
+    z-index: 10;
+    padding: 3rem;
+    height: 14rem;
+
+}
+.dropdownpro p {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.dropdownpro button{
+    padding: 1rem 8rem 1rem 8rem;
+    border-radius: 40px;
+    border: 3px solid black;
+    background-color: #fff;
+
+}
+
+.dropdownpro p:hover {
+    background-color: #f2f2f2;
+}
+main{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+.heroimg{
+    width: 90%;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.offerings{
+    margin-top: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60rem;
+}
+.suboffer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+}
+.offering1{
+    height: 52rem;
+    background-color: #fff;
+    width: 45%;
+    border-radius: 25px;
+}
+.offering2{
+    height: 52rem;
+    background-color: #fff;
+    width: 45%;
+    border-radius: 25px;
+}
+.offering1 img, .offering2 img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 60%;
+    object-fit: cover;
+    margin-bottom: 2.5rem;
+}
+.offering1 h1, .offering2 h1{
+    font-size: 1.7rem;
+    color: black;
+    text-align: start;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.offering1 h2, .offering2 h2{
+    text-align: start;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.offering1 h3, .offering2 h3{
+    text-align: start;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    
+}
+.offerings button{
+    padding:0.8rem 8rem 0.8rem;
+    border-radius: 30px;
+    background-color:#000;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.features{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.featureCards{
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+.imageCard{
+    width: 55%;
+    height: 37rem;
+    border-radius: 30px;
+    margin-top: 9rem;
+    z-index: 1;
+    margin-right: -5rem;
+}
+.descripCard{
+    width: 45%;
+    height: 37rem;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: -1rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.imageCard img, .imageCardright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.descripCard h3, .descripCard h1{
+    margin-top: 0rem;
+    padding-left: 4rem;
+}
+.descripCard h1,p{
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4.3rem;
+}
+.descripCard p{
+    font-size: 1.2rem;
+}
+.descripCard button{
+    margin-left: 4rem;
+    margin-top: 10rem;
+    padding: 1rem 9rem 1rem 9rem;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #fff;
+}
+.featureCards.reverse {
+    flex-direction: row-reverse;
+}
+
+.featureCards.reverse .imageCard {
+    margin-left: -5rem;
+    margin-right: 0;
+}
+.moresection{
+    width: 90%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.moresection h1{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.morecontainer{
+    width: 84%;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.option1, .option2, .option3{
+    width: 32%;
+    height:41rem;
+    background-color: #fff;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+.option1 img, .option2 img, .option3 img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.option1 h2, .option2 h2, .option3 h2{
+    padding: 1.5rem 2rem 0 2rem;
+    font-size: 1.8rem;
+}
+.option1 p, .option2 p, .option3 p{
+    margin-left: -2rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+.option1 a, .option2 a, .option3 a{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: black;
+}
+.explore{
+    width: 90%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.explore h1{
+    margin-bottom: 2rem;
+}
+.explore button{
+    padding: 0.6rem 9rem 0.6rem 9rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.brands{
+    height: 39rem;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.brand1{
+    width: 30%;
+    height: 18rem;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand1 img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 52rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.footlogo{
+    width: 80%;
+    height: 10rem;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 4rem;
+}
+.footlogo img{
+    width: 20%;
+}
+.footcontanier{
+    display: flex;
+    justify-content: start;
+    gap: 4rem;
+    width: 80%;
+
+}
+.help{
+    margin-top: 2rem;
+    height: 35rem;
+    width: 15%;
+    color: #fff;
+}
+.help p, .shopvisit p, .legal p{
+    margin-left: -4rem;
+    padding-bottom: 1rem;
+}
+.help h3, .shopvisit h3, .legal h3{
+    padding-bottom: 1rem;
+}
+.shopvisit, .legal{
+    margin-top: 2rem;
+    height: 35rem;
+    width: 22%;
+    color: #fff;
+}
+.end{
+    width: 80%;
+    height: 10rem;
+    border-top: 3px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 5rem;
+}
