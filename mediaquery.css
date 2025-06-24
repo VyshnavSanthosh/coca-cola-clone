@@ -1,0 +1,429 @@
+@media (min-width: 1700px) and (max-width: 1815px){
+    .promos h1{
+        font-size: 1rem;
+        
+    }
+    .promos{
+        background-color: gray;
+    }
+}
+@media screen and (max-width: 1700px) {
+.profile{
+    margin-left: 28rem;
+}
+@media (max-width:1730px){
+    .promos h1{
+        font-size: 1rem;
+    }
+}
+}
+@media screen and (max-width: 1628px) {
+    .profile{
+        margin-left: 34rem;
+    }
+    .promos{
+        width: 200px;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+    .brand{
+        margin-left: 1.5rem;
+        font-size: 0.8em;
+    }
+    .discover , .impact{
+        font-size: 0.8em;
+        margin-left: 2rem;
+    }
+    .shop, .promos{
+        font-size: 0.8em;
+        margin-left: 2rem;
+    }
+    .option1, .option2, .option3{
+        height: 44rem;
+    }
+    }
+@media screen and (max-width: 1558px) {
+    .profile{
+        margin-left: 31rem;
+    }
+    .option1 h2, .option2 h2, .option3 h2{
+        font-size: 1.5rem;
+    }
+    .option1 p, .option2 p, .option3 p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 1508px) {
+    .profile{
+        margin-left: 29rem;
+    }
+    .option1 h2, .option2 h2, .option3 h2{
+        font-size: 1.3rem;
+    }
+    .option1 p, .option2 p, .option3 p{
+        font-size: 1rem;
+    }
+    .explore{
+        margin-top: 6rem;
+    }
+    .brands{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1428px) {
+    .profile{
+        margin-left: 25rem;
+    }
+    
+}
+@media screen and (max-width: 1328px) {
+    .profile{
+        margin-left: 23rem;
+    }
+    
+}
+@media screen and (max-width: 1281px) {
+    .profile{
+        margin-left: 20rem;
+    }
+
+    .offering2{
+        
+        width: 90%;
+    }
+    .offering2 h1{
+        font-size: 1.4rem;
+    }
+    .offerings button{
+        width: 80%;
+    }
+    .features{
+        width: 100%;
+
+    }
+    .featureCards{
+        width: 100%;
+        flex-direction: column;
+    }
+    .imageCard{
+        width: 100%;
+        height: 45rem;
+        background-color: antiquewhite;
+        margin: 0;
+        border-radius: 0;
+    }
+    .imageCard img{
+        border-radius: 0;
+    }
+    .descripCard{
+        width: 95%;
+        height: 15rem;
+        margin-top: -6rem;
+    }
+    .descripCard h3, .descripCard h1{
+        margin-top: 0rem;
+        padding-left: 4rem;
+        font-size: 1.6rem;
+    }
+    .descripCard h3{
+        font-size: 1rem;
+    }
+    .descripCard h1,p{
+        margin-top: 0.6rem;
+        padding-left: 4rem;
+        padding-right: 4.3rem;
+    }
+    .descripCard button{
+        margin-top: 2rem;
+        width: 80%;
+        padding: 0.5rem 9rem 0.5rem 9rem;
+    }
+    .descripCard p{
+        font-size: 1rem;
+    }
+    .featureCards.reverse  {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .featureCards.reverse .imageCard {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .brands{
+        width: 90%;
+        height: 65rem;
+    }
+    .brand1{
+        width: 45%;
+    }
+    .explore{
+        height: 73rem;
+    }
+}
+/* Mobile style: full width cards */
+@media (max-width: 1200px) {
+    .carousel-track .offering1,
+    .carousel-track .offering2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .shifted {
+    margin-top: 10rem;
+}
+.shop:hover, .promos:hover{
+    border-bottom: 0;
+}
+.impact, .shop, .promos{
+    background-color: #fff;
+}
+.promos{
+    width: 96.4%;
+}
+}
+
+/* Desktop style: side-by-side cards */
+@media (min-width: 1201px) {
+    .carousel-track {
+        width: 100%;
+        gap: 8rem;
+    }
+
+    .carousel-track .offering1,
+    .carousel-track .offering2 {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+}
+
+
+/* Responsive navbar for screens ≤ 1200px */
+@media (max-width: 1200px) {
+nav {
+    flex-wrap: wrap;
+    height: 5rem;
+}
+
+.hamburger {
+    display: block;
+}
+
+.nav-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-items.active {
+    display: flex;
+}
+
+.nav-items > div {
+    margin: 0.5rem 0;
+    padding-left: 2rem;
+    border-bottom: 1px solid #ccc;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdownpro, .dropdowndis {
+    position: static;
+    width: 100%;
+    background-color: #fff;
+}
+
+.profile {
+    margin-left: 0;
+    width: auto;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .morecontainer {
+        position: relative;
+        width: 100%;
+        height: 45rem;
+        overflow: hidden;
+    }
+    .slide {
+        position: absolute;
+        width: 100%;
+        transition: opacity 1s ease-in-out;
+        opacity: 0;
+    }
+
+    .slide.active {
+        opacity: 1;
+    }
+    .option1, .option2, .option3{
+        width: 100%;
+        height: auto;
+    }
+    .moresection{
+        height: 60rem;
+    }
+    .morecontainer{
+        height: 80rem;
+    }
+
+    .option1 h2, .option2 h2, .option3 h2{
+        padding: 1.5rem 2rem 0 2rem;
+        font-size: 1.4rem;
+    }
+    .option1 p, .option2 p, .option3 p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    
+    }
+    .option1 a, .option2 a, .option3 a{
+        font-size: 1rem;
+    }
+    .explore{
+        margin-top: 0;
+    }
+}
+@media (min-width: 1200px) {
+.morecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.option1, .option2, .option3{
+    width: 97%;
+}
+.slide {
+    flex: 1;
+    width: 32%;
+}
+}
+
+@media screen and (max-width: 1000px){
+    footer{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 950px) {
+    .moresection{
+        height: 53rem;
+    }
+    .imageCard{
+        height: 33rem;
+    }
+    .descripCard{
+        height: 14rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .brands{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .moresection{
+        height: 49rem;
+    }
+    .imageCard{
+        height: 29rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .brand1{
+        width: 40%;
+        height: 14rem;
+    }
+    .explore{
+        height: 49rem;
+        margin-top: 4rem;
+    }
+    .moresection{
+        height: 43rem;
+    }
+    .offerings h1{
+        font-size: 1.7rem;
+    }
+    .offering1 h2, .offering2 h2, .offerings h2{
+        font-size: 1rem;
+    }
+    .offering1 h1, .offering2 h1, .offerings h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 660px){
+    .offerings button{
+        width: 97%;
+        padding:0.5rem 4rem 0.5rem;
+    }
+    .offerings{
+        height: 50rem;
+    }
+    .offering1, .offering2{
+        height: 45rem;
+    }
+    .descripCard h1{
+        font-size: 1.3rem;
+    }
+    .descripCard h3{
+        font-size: 0.8rem;
+    }
+    .descripCard p{
+        font-size: 0.8rem;
+    }
+    .descripCard button{
+        margin-top: 1rem;
+        padding: 0.5rem 6rem 0.5rem 6rem;
+    }
+    footer{
+        font-size: 0.5;
+    }
+} 
+@media screen and (max-width: 550px) {
+    .brand1{
+        width: 40%;
+        height: 12rem;
+    }
+    .explore h1{
+        font-size: 1.6rem;
+    }
+    .moresection h1{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .brand1{
+        width: 40%;
+        height: 9rem;
+    }
+    .explore button{
+        width: 15rem;
+        padding: 0.6rem 4rem 0.6rem 4rem;
+    }
+    .descripCard h1{
+        font-size: 1rem;
+    }
+    .descripCard h3{
+        font-size: 0.8rem;
+    }
+    .descripCard p{
+        font-size: 0.8rem;
+    }
+    .descripCard button{
+        margin-top: 1rem;
+        padding: 0.3rem 4rem 0.3rem 4rem;
+        font-size: 0.8rem;
+        width: 68%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .brand1{
+        width: 40%;
+        height: 7rem;
+    }
+}

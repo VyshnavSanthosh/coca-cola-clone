@@ -7,49 +7,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="mediaquery.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="./assets/Coke-company-logo-black.svg" alt="">
-        </div>
-        <div class="brand">
-            <h1>Brands</h1>
-        </div>
+        <img src="./assets/Coke-company-logo-black.svg" alt="">
+    </div>
+    
+    <div class="hamburger">&#9776;</div> <!-- Hamburger Icon -->
+    
+    <div class="nav-items">
+        <div class="brand"><h1>Brands</h1></div>
+    
         <div class="discover">
-            <h1>Discover</h1>
-            <div class="dropdowndis">
-                <p>+one app</p>
-                <p>World of Coca-Cola Attraction</p>
-            </div>
+        <h1>Discover</h1>
+        <div class="dropdowndis">
+            <p>+one app</p>
+            <p>World of Coca-Cola Attraction</p>
         </div>
+        </div>
+    
         <div class="impact">
-            <h1>Impact</h1>
-            <div class="dropdowndis">
-                <p>Culture</p>
-                <p>Social</p>
-                <p>Sustainability</p>
-            </div>
+        <h1>Impact</h1>
+        <div class="dropdowndis">
+            <p>Culture</p>
+            <p>Social</p>
+            <p>Sustainability</p>
         </div>
-        <div class="shop">
-            <h1>Shop</h1>
         </div>
-        <div class="promos">
-            <h1>Promos & Offers</h1>
-        </div>
+    
+        <div class="shop"><h1>Shop</h1></div>
+        <div class="promos"><h1>Promos & Offers</h1></div>
+    
         <div class="profile">
-            <i class="fa-regular fa-user"></i>
-            <div class="dropdownpro">
-                <p>Want a personalized experience and access to exclusive content?
-                </p>
-                <button>Sign In</button>
-                <button>Log In</button>
-            </div>
+        <i class="fa-regular fa-user"></i>
+        <div class="dropdownpro">
+            <p>Want a personalized experience and access to exclusive content?</p>
+            <button>Sign In</button>
+            <button>Log In</button>
         </div>
         </div>
+    </div>
     </nav>
+      
 
     <main>
 
@@ -59,7 +62,8 @@
         </div>
         <div class="offerings">
             <h1>Offerings</h1>
-            <div class="suboffer">
+            <div class="suboffer carousel">
+                <div class="carousel-track">
             <div class="offering1">
                 <img src="./assets/onexp-offerings-vitaminwater-summersweeps.jpg" alt="">
                 <h1>big flavor. big trip</h1>
@@ -69,8 +73,9 @@
             <div class="offering2">
                 <img src="./assets/topo-130-anniv-tile.png" alt="">
                 <h1>Celebrate Topo Chico's 130th Anniversery</h1>
-                <h2>Your favorite minearal water is celebrating 130 years <br> with new video, seeeptakes, and more. Join the party!</h2>
+                <h2>Your favorite minearal water is celebrating 130 years with new video, seeeptakes, and more. Join the party!</h2>
                 <h3>Let's Go.</h3>
+            </div>
             </div>
             
         </div>
@@ -113,9 +118,12 @@
             </div>
         </div>
         </div>
+
+        
         <div class="moresection">
             <h1>More from Coca‑Cola®</h1>
             <div class="morecontainer">
+                <div class="slide">
                 <div class="option1">
                     <img src="./assets/plusone-card.jpg" alt="">
                     <h2>you plus +one</h2>
@@ -123,17 +131,22 @@
                     <a href="#">Download Now</a>
 
                 </div>
+                </div>
+                <div class="slide">
                 <div class="option2">
                     <img src="./assets/onexp-offerings-wocc.jpg" alt="">
                     <h2>New Exhibit at World of Coca-Cola</h2>
                     <p>Experience the magic of Coca‑Cola's history like never before—step into Coca‑Cola Stories at World of Coca‑Cola.</p>
                     <a href="#">Learn more</a>
                 </div>
+                </div>
+                <div class="slide">
                 <div class="option3">
                     <img src="./assets/coke-offering-refreshing-films.jpg" alt="">
                     <h2>Coca‑Cola Refreshing Films</h2>
-                    <p>Coca‑Cola® Refreshing Films provides students the opportunity to create content for the big screen. </p>
+                    <p>Coca‑Cola® Refreshing Films provides students the opportunity to create content for the big screen.</p>
                     <a href="#">Check it out</a>
+                </div>
                 </div>
             </div>
         </div>
@@ -205,6 +218,6 @@
         <p>© 2025 The Coca‑Cola Company. All rights reserved.</p>
     </div>
     </footer>
-
+<script src="main.js"></script>
 </body>
 </html>
